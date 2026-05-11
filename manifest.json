@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "PDF Color Detector",
+  "version": "2.0",
+  "description": "Detects which pages in a PDF contain color.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scan PDF for Color"
+  }
+}
