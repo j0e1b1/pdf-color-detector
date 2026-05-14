@@ -54,3 +54,10 @@ button:disabled {
     border-radius: 4px;
     display: none;
 }
+#copy-btn-color, #copy-btn-bw {
+    display: none; 
+    background-color: #34a853;
+}
+#copy-btn-color.active, #copy-btn-bw.active {
+    background-color: #24763a;
+}
